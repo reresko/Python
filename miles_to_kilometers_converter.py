@@ -3,6 +3,7 @@
 
 def converter(miles):
     km = miles * 1.6
-    print(km)
+    print(str(km) + "km")
 
-converter(2)
+
+converter(int(input("Zadej délku v mílích: ")))
