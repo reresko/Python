@@ -3,7 +3,7 @@
 
 list = [1,2,3,4,5,6,7,8,9,10]
 
-list.append(input("napiš co chcesš přidat: "))
+list.append(input("napiš co chceš přidat: "))
 print(list)
 
 
