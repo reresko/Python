@@ -6,4 +6,4 @@ def converter(miles):
     print(str(km) + "km")
 
 
-converter(int(input("Zadej délku v mílích: ")))
+converter(float(input("Zadej délku v mílích: ")))
