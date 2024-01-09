@@ -11,13 +11,13 @@ def Prog():
                 else:
                     pass
                 c=c+1
-                print(a)
+                print("A", end=" ")
             b=b+1
-            print(b)
-        print(c)
+            print("B", end=" ")
+        print("C", end=" ")
         if int(a)==5:
-            a=a+1
+            a=a-1
         else:
-            pass
+            a=a+1
 
 Prog()
